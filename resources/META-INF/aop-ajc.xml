@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+	<aspects>
+		<aspect name="com.andallus.swingdebug.JComponentIdentifier"/>
+	</aspects>
+
+	<weaver options="-verbose -showWeaveInfo -Xset:weaveJavaPackages=true,weaveJavaxPackages=true">
+<!--
+     	<weaver options="-XnoInline -verbose -showWeaveInfo -Xlint:ignore -Xset:weaveJavaPackages=true -Xset:weaveJavaxPackages=true">
+
+-->
+	</weaver>
+
+</aspectj>
